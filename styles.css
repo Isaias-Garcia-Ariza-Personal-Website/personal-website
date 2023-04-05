@@ -1,0 +1,63 @@
+/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Infant&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;1,700&display=swap');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+  font-family: 'Cormorant Infant', serif;
+}
+
+h1, h2 {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0.35em 1em;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  margin-bottom: 2vh
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+
+header {
+  background-image: url(./images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    filter: brightness(68%);
+}
+
+
+.title-container {
+  text-align: center;
+    padding-top: 37vh;
+}
+
+.down-arrow {
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: 50vw;
+  top: 4vh;
+  margin-top: 35vh;
+}
