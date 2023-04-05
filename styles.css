@@ -47,10 +47,28 @@ header {
     filter: brightness(68%);
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+   padding-top: 2vh
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.5em;
+  color: #044474;
+  font-weight: bold;
+  height: 2vh;
+}
+
+a:hover {
+  font-size: 3em;
+}
+
 
 .title-container {
   text-align: center;
-    padding-top: 37vh;
+  padding-top: 33vh;
 }
 
 .down-arrow {
@@ -61,3 +79,4 @@ header {
   top: 4vh;
   margin-top: 35vh;
 }
+
