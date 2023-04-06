@@ -326,6 +326,40 @@ li {
    .down-arrow {
     width: 16%;
    }
+
+   /*PROJECTS*/
+
+   .project-1 {
+    flex-direction: column-reverse;
+    height: 54vh;
+    padding-top: 6vh;
+   }
+
+   .project1-img {
+    height: 28vh;
+    width: 81vw;
+    padding-left: 9vw;
+   }
+
+   .project1-title {
+    padding-top: 0;
+    padding-left: 31vw;
+   }
+
+   .project1-desc {
+    font-size: 1.5em;
+    margin-left: 3vw;
+}
+
+.project1-btn {
+  margin-left: 28vw;
+  margin-right: auto;
+  margin-bottom: 12vh;
+}
+
+.portfolio-footer {
+  margin-top: 0;
+}
  };
 
 
