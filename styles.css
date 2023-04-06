@@ -290,7 +290,39 @@ li {
 
 
                                                           /* MEDIA QUERIES */
+/* Monitor*/
 
+@media screen and (min-width: 1500px) and (max-width: 3000px) {
+  .title-container {
+    padding-top: 38vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 3.5em;
+  font-weight: bold;
+  height: 2vh;
+}
+
+.project1-desc {
+  font-size: 21px;
+  margin-left: 4vw;
+}
+
+.project1-btn {
+  font-size: 2em;
+  margin-left: 8vw;
+}
+
+.email-li {
+  margin-left: 43vw;
+}
+
+ }
+
+ 
+ 
+ 
  /*MOBILE*/
 
  @media screen and (min-width: 0px) and (max-width: 400px) {
@@ -409,6 +441,8 @@ h4 {
 }
 
  };
+
+ 
 
 
 
