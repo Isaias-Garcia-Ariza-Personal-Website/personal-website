@@ -262,7 +262,7 @@ li {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-left: 9vw;
+    margin-left: 10vw;
 }
 
 .portfolio-footer {
@@ -272,6 +272,21 @@ li {
 }
 
 
+                                                                /* Contact */
+
+.contact-sections {
+  background-color: #34547C;
+}
+
+.email-section {
+  height: 33vh
+}
+
+.email-li {
+  font-size: 3em;
+  color: white;
+  margin-left: 38vw;
+}
 
 
 
