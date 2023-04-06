@@ -1,0 +1,450 @@
+/*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Infant&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;1,700&display=swap');
+
+/*General*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+h1, h2, h3, h4, h5, h6, a, button, p, li {
+  font-family: 'Cormorant Infant', serif;
+}
+
+h1, h2 {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+h1 {
+  display: inline-block;
+  padding: 0.35em 1em;
+  border-bottom: 2px solid;
+  font-size: 3em;
+  margin-bottom: 2vh
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.5em;
+  font-weight: bold;
+  height: 2vh;
+}
+
+.topnav a:hover {
+  font-size: 3em;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+   padding-top: 2vh
+}
+
+
+                                                                    /*  HOME SECTION   */
+
+/*Home - header*/
+.home-header {
+  background-image: url(./images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(90%);
+}
+
+.home-nav {
+  color: #044474;
+}
+
+.title-container {
+  text-align: center;
+  padding-top: 34vh;
+}
+
+.down-arrow {
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35vh;
+}
+
+
+/*Home - Quote*/
+.quote {
+  text-align: center;
+  background-color: #243C5C;
+  color: #d3d4e4;
+  height: 33vh;
+}
+
+.quote-author {
+  font-size: 2.5em;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 10vh;
+}
+                                                                           /*  ABOUT SECTION   */
+
+/*About - Header*/
+
+.about-container {
+  background-color: #34547C;
+  color: #c8ece9;
+  height: 100%;
+}
+
+.about-nav {
+  color: #c8ece9;
+}
+
+/*About Main Sections */
+.about-sections {
+  background-color: #2e3842;
+}
+
+
+/*About - Photo Section*/
+.photo-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hiking-section {
+  background-color: rgb(0 0 0 / 22%);
+}
+
+.traveling-section {
+  background-color: rgb(0 0 0 / 22%);
+  height: 52vh;
+}
+
+h5 {
+  text-align: center;
+    font-size: 3em;
+    padding-top: 2vh;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+  font-size: 2.5em;
+    text-align: center;
+    padding-top: 11vh;
+    color: white;
+    font-weight: bold;
+}
+
+.photo-img{
+  height: 33vh;
+}
+
+.photo-img-1 {
+  width: 29%;
+}
+
+.photo-img-2 {
+  width: 28%;
+}
+
+.photo-img-3 {
+  width: 26%;
+}
+
+footer {
+  background-color: #2e3842;
+  height: 10vh;
+}
+
+footer .icons a {
+  color: white;
+}
+
+li {
+  cursor: pointer;
+}
+
+  
+.icons {
+  display: flex;
+  justify-content: space-around;  
+  margin-top: 0;
+  list-style: none;
+  font-size: 10px;
+  padding-top: 3.5vh;
+}
+
+.label {
+  color: white;
+}
+
+
+                                                                 /*  PORTFOLIO SECTION   */
+
+.portfolio-nav {
+  padding-bottom: 3vh;
+}                                                                 
+
+.main-portfolio{
+  background-color: #2e3842;
+  height: 100%;
+}
+
+.portfolio-nav {
+  color: white;
+}
+
+.project-1 {
+  background-color: rgb(0 0 0 / 24%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.project1-title {
+  padding-top: 21vh;
+  padding-left: 8vw;
+}
+
+.project1-desc {
+  font-size: 21px;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.project1-img {
+  height: 49vh;
+  width: 40vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.project1-btn {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 3.125em;
+    letter-spacing: 0.225em;
+    line-height: 3.125em;
+    max-width: 30em;
+    padding: 0 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10vw;
+}
+
+.portfolio-footer {
+    height: -1vh;
+    height: 11vh;
+    margin-top: 22vh;
+}
+
+
+                                                                /* Contact */
+
+.contact-sections {
+  background-color: #34547C;
+}
+
+.email-section {
+  height: 33vh
+}
+
+.email-li {
+  font-size: 3em;
+  color: white;
+  margin-left: 38vw;
+}
+
+
+                                                          /* MEDIA QUERIES */
+/* Monitor*/
+
+@media screen and (min-width: 1500px) and (max-width: 3000px) {
+  .title-container {
+    padding-top: 38vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 3.5em;
+  font-weight: bold;
+  height: 2vh;
+}
+
+.project1-desc {
+  font-size: 21px;
+  margin-left: 4vw;
+}
+
+.project1-btn {
+  font-size: 2em;
+  margin-left: 8vw;
+}
+
+.email-li {
+  margin-left: 43vw;
+}
+
+ }
+
+ 
+ 
+ 
+ /*MOBILE*/
+
+ @media screen and (min-width: 0px) and (max-width: 400px) {
+   /*HOME*/
+  .topnav {
+    display: flex;
+    padding-top: 2vh;
+    flex-direction: column;
+    text-align: center;
+    gap: 9.5vh;
+   }
+
+   .title-container {
+    padding-top: 16vh
+   }
+
+   h1 {
+    font-size: 2em;
+   }
+
+   h2 {
+    font-size: 1.5em;
+   }
+
+   h3 {
+    font-size: 2.4em;
+   }
+
+   .quote-author {
+    font-size: 2em;
+}
+
+   .down-arrow {
+    width: 16%;
+   }
+
+   /*PROJECTS*/
+
+   .project-1 {
+    flex-direction: column-reverse;
+    height: 54vh;
+    padding-top: 6vh;
+   }
+
+   .project1-img {
+    height: 28vh;
+    width: 81vw;
+    padding-left: 9vw;
+   }
+
+   .project1-title {
+    padding-top: 0;
+    padding-left: 31vw;
+   }
+
+   .project1-desc {
+    font-size: 1.5em;
+    margin-left: 3vw;
+}
+
+.project1-btn {
+  margin-left: 28vw;
+  margin-right: auto;
+  margin-bottom: 12vh;
+}
+
+.portfolio-footer {
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 2em;
+  padding: 7%;
+}
+
+/*ABOUT*/
+
+.photo-section {
+  flex-direction: column;
+  width: 331vw;
+}
+
+.photo-img {
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+}
+
+.photo-img-1 {
+  width: 28%;
+  
+}
+
+.photo-img-2 {
+  width: 28%;
+}
+
+.photo-img-3 {
+  width: 28%;
+  padding-left: 4vw;
+}
+
+.traveling-section {
+  height: 100%;
+}
+
+.contact-h4 {
+    font-size: 2em;
+    padding: 7%;
+    margin-right: 16vw;
+    padding-bottom: 0;
+}
+
+.email-li {
+  font-size: 2.5em;
+  margin-left: 3vw;
+}
+
+ };
+
+ 
+
+
+
+
+
