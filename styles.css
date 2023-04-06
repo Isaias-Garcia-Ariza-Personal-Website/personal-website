@@ -396,6 +396,18 @@ h4 {
   height: 100%;
 }
 
+.contact-h4 {
+    font-size: 2em;
+    padding: 7%;
+    margin-right: 16vw;
+    padding-bottom: 0;
+}
+
+.email-li {
+  font-size: 2.5em;
+  margin-left: 3vw;
+}
+
  };
 
 
