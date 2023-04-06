@@ -1,6 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Cormorant+Infant&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;1,700&display=swap');
 
+/*General*/
+
 html, body {
   width: 100%;
   height: 100%;
@@ -8,6 +10,8 @@ html, body {
   padding: 0px;
   overflow-x: hidden; 
 }
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; 
@@ -37,25 +41,9 @@ h2 {
   font-size: 2.5em;
 }
 
-
-header {
-  background-image: url(./images/banner.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    filter: brightness(68%);
-}
-
-.topnav {
-  display: flex;
-  justify-content: space-evenly;
-   padding-top: 2vh
-}
-
 a {
   text-decoration: none;
   font-size: 2.5em;
-  color: #044474;
   font-weight: bold;
   height: 2vh;
 }
@@ -64,6 +52,25 @@ a:hover {
   font-size: 3em;
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+   padding-top: 2vh
+}
+
+
+/*Home - header*/
+.home-header {
+  background-image: url(./images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(90%);
+}
+
+.home-nav {
+  color: #044474;
+}
 
 .title-container {
   text-align: center;
@@ -78,6 +85,8 @@ a:hover {
   margin-top: 35vh;
 }
 
+
+/*Home - Quote*/
 .quote {
   text-align: center;
   background-color: #243C5C;
@@ -95,4 +104,104 @@ h3 {
   font-size: 3em;
   padding-top: 10vh;
 }
+
+
+/*About - Header*/
+
+.about-container {
+  background-color: #34547C;
+  color: #c8ece9;
+  height: 100%;
+}
+
+.about-nav {
+  color: #c8ece9;
+}
+
+/*About Main Sections */
+.about-sections {
+  background-color: #2e3842;
+}
+
+
+/*About - Photo Section*/
+.photo-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hiking-section {
+  background-color: rgb(0 0 0 / 22%);
+}
+
+.traveling-section {
+  background-color: rgb(0 0 0 / 22%);
+  height: 52vh;
+}
+
+h5 {
+  text-align: center;
+    font-size: 3em;
+    padding-top: 2vh;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+  font-size: 2.5em;
+    text-align: center;
+    padding-top: 11vh;
+    color: white;
+    font-weight: bold;
+}
+
+.photo-img{
+  height: 33vh;
+}
+
+.photo-img-1 {
+  width: 29%;
+}
+
+.photo-img-2 {
+  width: 28%;
+}
+
+.photo-img-3 {
+  width: 26%;
+}
+
+footer {
+  background-color: #2e3842;
+  height: 10vh;
+}
+
+footer .icons a {
+  color: white;
+}
+
+li {
+  cursor: pointer;
+}
+
+  
+.icons {
+  display: flex;
+  justify-content: space-around;  
+  margin-top: 0;
+  list-style: none;
+  font-size: 10px;
+  padding-top: 3.5vh;
+}
+
+.label {
+  color: white;
+}
+
+
+
+
+
+
+
 
