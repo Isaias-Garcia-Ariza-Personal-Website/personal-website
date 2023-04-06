@@ -83,7 +83,7 @@ a {
   width: 5%;
   display: block;
   margin-left: auto;
-  margin-right: 49vw;
+  margin-right: auto;
   margin-top: 35vh;
 }
 
@@ -287,6 +287,46 @@ li {
   color: white;
   margin-left: 38vw;
 }
+
+
+                                                          /* MEDIA QUERIES */
+
+ /*MOBILE*/
+
+ @media screen and (min-width: 0px) and (max-width: 400px) {
+   /*HOME*/
+  .topnav {
+    display: flex;
+    padding-top: 2vh;
+    flex-direction: column;
+    text-align: center;
+    gap: 9.5vh;
+   }
+
+   .title-container {
+    padding-top: 16vh
+   }
+
+   h1 {
+    font-size: 2em;
+   }
+
+   h2 {
+    font-size: 1.5em;
+   }
+
+   h3 {
+    font-size: 2.4em;
+   }
+
+   .quote-author {
+    font-size: 2em;
+}
+
+   .down-arrow {
+    width: 16%;
+   }
+ };
 
 
 
