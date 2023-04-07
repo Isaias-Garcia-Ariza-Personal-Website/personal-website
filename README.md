@@ -30,4 +30,4 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-![alt text](https://github.com/[Isaias-Garcia-Ariza-Personal-Website]/[personal-website]/blob/[branch]/image.jpg?raw=true)
+
