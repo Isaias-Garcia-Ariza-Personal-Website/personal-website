@@ -20,10 +20,7 @@ This is a personal website where I will be showcasing my latest projects. There 
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+No contributing is allowed for this proyect since it is a personal website.
 
 ## License
 
