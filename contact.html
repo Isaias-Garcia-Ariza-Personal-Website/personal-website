@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <script src="https://kit.fontawesome.com/8b199e0d3a.js" crossorigin="anonymous"></script>  <link rel="icon" href="./images/code.png">
-  <script src="message.js"></script>
+  <script src="formLogic.js"></script>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,21 +11,38 @@
 </head>
 <body>
   <section class="main-portfolio">
-    <header>
+    <header class="contact-header">
       <div class=" topnav">
         <a class="portfolio-nav" href="home.html">Home</a>
         <a class="portfolio-nav" href="portfolio.html">Portfolio</a>
         <a  class="portfolio-nav" href="about.html">About</a>
       </div>
     </header>
-    <div class="contact-main">
-      <div class="contact-sections email-section">
-        <ul>
-          <h4 class="contact-h4">EMAIL</h4>
-          <li class="email-li">isaiasgarciaariza@gmail.com</li>
-        </ul>
-      </div>
+    <div class="contact-section">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <p><label for="message">Message:</label></p> 
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br>
+            <input class="submit-bttn" type="submit" value="Submit">
+          </form>
     </div>
   </section>
+  <footer>
+    <ul class="icons">
+      <li class="icons-li">
+        <a href="https://www.linkedin.com/in/isaias-garcia-ariza/" target="_blank" class="fa-brands fa-linkedin"></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/IsaiasGar_Ar" target="_blank" class="fa-brands fa-twitter"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/paramo_45/" target="_blank" class="fa-brands fa-instagram"></a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
